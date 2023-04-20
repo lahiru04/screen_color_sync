@@ -37,3 +37,8 @@ Overall, "Screen Color Sync" is a versatile and powerful tool that allows you to
 
 * The application captures the screen colors only from the primary screen.
 * The LED strip connected to the Arduino board should be compatible with the Adafruit NeoPixel library.
+
+## Images of hardware
+<img src="docs/1.jpg" width="280"/>
+<img src="docs/2.jpg" width="280"/>
+<img src="docs/3.jpg" width="280"/>
