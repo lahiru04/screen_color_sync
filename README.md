@@ -22,14 +22,23 @@ Overall, "Screen Color Sync" is a versatile and powerful tool that allows you to
 * NeoPixel LED strip.
 * USB cable to connect the Arduino board to the computer.
 
+
+## Instructions to connect a NodeMCU board and a Neo Pixel LED strip, follow these steps:
+
+1. Supply +5V to your NodeMCU board and Neo Pixel LED strip +5V pin.
+2. Connect the ground pin of the NodeMCU board and the LED strip ground pin.
+3. Supply 0V from the power supply.
+4. Connect the LED strip DIN pin and NodeMCU board D2 pin through a 220ohms resistor.
+
+
 ## How to Use
 
-1. Download and install the Java Runtime Environment (JRE) version 8 or above.
+1. Download and install the JDK version 8 or above.
 2. Download and install the Arduino IDE.
 3. Connect the NeoPixel LED strip to the Arduino board.
-4. Upload the Arduino code to the board using the Arduino IDE.
-5. Open the ScreenGrab application.
-6. Click on the start button to capture the screen colors and visualize them on the LED strip.
+4. Upload the Arduino code to the board using the Arduino IDE. (screenCap1.ino )
+5. Open the application.
+6. Click on the start button and screen trac button to capture the screen colors and visualize them on the LED strip.
 7. Click on the stop button to stop capturing the screen colors.
 
 ## Limitations
