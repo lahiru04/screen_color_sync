@@ -41,3 +41,7 @@ Overall, "Screen Color Sync" is a versatile and powerful tool that allows you to
 <img src="docs/1.jpg" width="280"/>
 <img src="docs/2.jpg" width="280"/>
 <img src="docs/3.jpg" width="280"/>
+
+### Image of the app
+<img src="docs/4.jpg" width="280"/>
+
