@@ -38,8 +38,8 @@ Overall, "Screen Color Sync" is a versatile and powerful tool that allows you to
 3. Connect the NeoPixel LED strip to the Arduino board.
 4. Upload the Arduino code to the board using the Arduino IDE. (screenCap1.ino )
 5. Open the application.
-6. Click on the start button and screen trac button to capture the screen colors and visualize them on the LED strip.
-7. Click on the stop button to stop capturing the screen colors.
+6. Click on the open port button and screen track button to capture the screen colors and visualize them on the LED strip.
+7. Click on the close port button to stop capturing the screen colors.
 
 ## Limitations
 
