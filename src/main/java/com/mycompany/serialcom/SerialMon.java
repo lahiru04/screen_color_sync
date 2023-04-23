@@ -79,6 +79,7 @@ public class SerialMon extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Screen Tracker");
+        setFont(new java.awt.Font("Calibri", 0, 10)); // NOI18N
         setResizable(false);
 
         portCombo.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
@@ -201,6 +202,8 @@ public class SerialMon extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        getAccessibleContext().setAccessibleName("Screen Color Sync");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -270,7 +273,7 @@ public class SerialMon extends javax.swing.JFrame {
         if (serialPort != null) {
             if (serialPort.isOpen()) {
 
-                timer = new Timer(100, e -> {
+                timer = new Timer(50, e -> {
                     try {
                         getScreenColors(POINTS);
                         sendScreenColors(serialPort.getOutputStream());
