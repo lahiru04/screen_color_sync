@@ -7,7 +7,6 @@ In addition to its intuitive user interface and easy-to-use features, "Screen Co
 
 Overall, "Screen Color Sync" is a versatile and powerful tool that allows you to bring your creative ideas to life and transform your space into a colorful and vibrant environment.
 
-![ScreenGrab Screenshot](screenshot.png)
 
 ## Features
 
